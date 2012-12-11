@@ -1,0 +1,230 @@
+body {
+	background-image:url(/img/laurelsTile.jpg);
+}
+
+header {
+	text-align: center;
+}
+
+
+.backing {
+	background: -moz-linear-gradient(left, #d9d8d8 0%, #e8e7e7 10%, #e8e7e7 85%, #d9d8d8 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #d9d8d8), color-stop(10%, #e8e7e7), color-stop(85%, #e8e7e7), color-stop(100%, #d9d8d8));
+	background: -webkit-linear-gradient(left, #d9d8d8 0%, #e8e7e7 10%, #e8e7e7 85%, #d9d8d8 100%);
+	background: -o-linear-gradient(left, #d9d8d8 0%, #e8e7e7 10%, #e8e7e7 85%, #d9d8d8 100%);
+	background: -ms-linear-gradient(left, #d9d8d8 0%, #e8e7e7 10%, #e8e7e7 85%, #d9d8d8 100%);
+	background: linear-gradient(left, #d9d8d8 0%, #e8e7e7 10%, #e8e7e7 85%, #d9d8d8 100%);
+ 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d8d8', endColorstr='#d9d8d8', GradientType=1 );
+}
+
+#branding {
+	margin-top: 0;
+	padding-bottom: 5%;
+}
+
+#branding h1 {
+	display: block;
+	width: 100%;
+	text-indent: -9999px;
+	margin-top: 40px;
+	background: url(/img/owlBase214x294.png) no-repeat center 0;
+	height: 294px;	
+}
+
+#branding a {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	outline: none;
+}
+
+#branding h2 {
+	text-align: center;
+	font-family: Garamond, Georgia, serif;
+	letter-spacing: -.02em;
+}
+
+#branding p {
+	font-size: 16px;
+	/*text-transform: uppercase;*/
+	font-family: "GillSans", Helvetica, Arial, sans-serif;
+
+}
+
+#about a {
+	text-decoration: underline;
+}
+
+#about h3, #contact h3 {
+	margin: 10% 2% 4% 2%;
+	padding: 8%;
+	background-color: rgba(235,235,235,1);
+}
+
+#about p, #contact p, #credits p {
+	text-align: center;	
+	padding: 2% 2% 2% 2%;
+	font-family: "GillSans", Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (max-width: 959px) {
+	#about h3, #contact h3 {
+		margin: 5% 5% 5% 5%;
+	}
+	#about p, #contact p, #credits p {
+		padding: 0 8% 3% 8%;
+	}	
+}
+
+.sticky {
+	position: fixed;
+}
+
+nav#primary.sticky {
+	top: 0;
+	z-index: 9999;
+	background-image:url(/img/laurelsTile.jpg);
+}
+
+nav#primary ul {
+	display: block;
+	list-style-type: none;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	padding: 0;	
+}
+
+nav#primary li:hover, nav#primary li.current_page_item  {
+	background-color:  rgba(4,200,220,0.3);
+}
+
+
+nav#primary a, nav#primary li {
+	color: #E8E7E7;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+
+nav#primary li {
+	float: left;
+	display: block;
+	margin: 0;
+	text-align: center;
+	/*font-size: 18px;*/
+	width: 33.33333333%;
+	padding: 10px 0 10px 0;
+}
+
+.thumb {
+	margin: 5%;
+	border-style:solid;
+	border-color: rgba(0,0,0,0.1);
+	border-width:1px;
+}
+
+
+figcaption{
+	text-decoration: none !important;
+	font-family: Garamond, Georgia, Palatino, Times New Roman, serif;
+	line-height: 1.8;
+	font-style: italic;
+	font-size: 18px;
+	color: #181818;
+	text-align: center;
+	width:100%;
+	background-color: rgba(235,235,235,0.5);
+}
+
+
+#contact img {
+	display: block;
+	margin: 0 auto 20px;
+	width: 60%;
+}
+#contact #bird{
+	padding-top: 40px;
+
+}
+
+#contact h3 {
+	margin-top:3%;
+}
+
+#contact #links {
+	width:100%;
+	text-align: center;
+}
+
+#contact #links a{
+	text-decoration: underline;
+	display: inline-block;
+	padding: 0 20px 10px 20px;
+	margin: 0 10px 10px 10px;
+}
+
+#contact #links a img{
+	opacity: 0.7;
+}
+
+#credits p {
+	padding-top: 10px;
+	font-family: "GillSans", Helvetica, Arial, sans-serif;
+}
+
+#credits a {
+	text-decoration: underline;
+}
+
+#title, #description {
+	text-align: left;
+	padding-top: 5%;
+	padding-bottom: 3%;
+}
+
+.entry h5 {
+	font-family:  "GillSans", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+#title *,  #description * {
+	padding: 0 5% 0 9%;
+}
+
+.entry a {
+	text-decoration: underline;
+}
+
+.entry h4 {
+	font-family: "GillSans", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+#media figcaption {
+	margin-bottom: 4%;
+}
+
+#media article {
+	text-align: center;
+	padding: 0 8.5% 0 8.5%;
+}
+
+#related h5 {
+	padding: 1% 0 0 7.5%;
+}
+.minithumb {
+	padding: 5% 8% 5% 8%;
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+	filter: grayscale(1);
+}
+
+
+
+
+

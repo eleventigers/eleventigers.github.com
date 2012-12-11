@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<section id="work">
+	<div class="container entry">
+		<article class="sixteen columns backing">
+			<header id="title" class="five columns alpha offset-by-one">
+				<h5>Project:</h5>
+				<h4>{{page.title}}</h4>
+				{% if page.external %}
+					<a href="{{ page.external }}" rel="external">Find out more &#x25B6;</a>
+				{% endif %}	
+			</header>
+			<div id="description" class="nine columns">
+				<h5>About:</h5>
+				<p>{{page.description}}</p>	
+			</div>
+			<div id="media" class="sixteen columns alpha omega">
+				<article>
+					{{ content }}
+				</article>		
+			</div>
+			<hr />
+			<div id="related" class="sixteen columns omega">
+				<h5>Other projects:</h5>
+				{% for post in site.posts %}	
+					{% if post.title != page.title and forloop.index < 7 %}
+						<aside class="three columns {% cycle 'offset-by-one', '', '', '', '' %} alpha omega">
+						    <a href="{{ post.url }}#primary" title="{{post.title}}">
+						    	<figure class="minithumb">
+						      		<img src="{{ post.image }}" class="scale-with-grid"/>					      		
+						      	</figure>
+						    </a>
+						 </aside>
+					{% endif %}
+				{% endfor %}		
+			</div>	
+		</article>		
+	</div>
+</section>	
+
