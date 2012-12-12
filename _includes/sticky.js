@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	var win = $(window);
 	var nav = $('nav');
-	var navButtons = $('li', nav);
+	var navButtons = $('a', nav);
 	var sections = $('section');
 
 	var _sections = new Array();
@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 	navButtons.each(function(i){
 		_navButtons[i] = new Object();
-		_navButtons[i].link = $('a', this).attr('href').replace(/^\/|\#|\/$/g, '');
+		_navButtons[i].link = $(this).attr('href').replace(/^\/|\#|\/$/g, '');
 		_navButtons[i].selector = this;
 	});
 
@@ -38,12 +38,12 @@ $(document).ready(function(){
 		for (var i = 0; i < _navButtons.length; ++i) {
 			var button = _navButtons[i];
 			if(id === button.link){
-				if(!$(button.selector).hasClass('current_page_item')){
-					$(button.selector).addClass('current_page_item');
+				if(!$('li', button.selector).hasClass('current_page_item')){
+					$('li', button.selector).addClass('current_page_item');
 				}	
 			} else {
-				if($(button.selector).hasClass('current_page_item')){
-					$(button.selector).removeClass('current_page_item');
+				if($('li', button.selector).hasClass('current_page_item')){
+					$('li', button.selector).removeClass('current_page_item');
 				}		
 			}
 		}	

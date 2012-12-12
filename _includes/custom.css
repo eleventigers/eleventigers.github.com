@@ -109,6 +109,11 @@ nav#primary a, nav#primary li {
 	transition: all .25s ease-in-out;
 }
 
+nav#primary a {
+	width: inherit;
+	height: inherit;
+}
+
 nav#primary li {
 	float: left;
 	display: block;
