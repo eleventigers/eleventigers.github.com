@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/eleventigers
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jokubasdargis.net
+  * I am eleventigers (https://keybase.io/eleventigers) on keybase.
+  * I have a public key with fingerprint FFE9 5F15 CED4 443E C163  B08D 4D52 DD4A E48A 728E
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012049c8689e9c8c6872089dc922a4cf74d2aac43e2b8cc8abb59b6aab3b8abb916b0a",
+            "fingerprint": "ffe95f15ced4443ec163b08d4d52dd4ae48a728e",
+            "host": "keybase.io",
+            "key_id": "4d52dd4ae48a728e",
+            "kid": "0101f04d243966962af2c02848fa4ce9c7ef539ce25109773ca920d894d6e4c6166c0a",
+            "uid": "7b059a937fa840a4a2de0b4542c6ec19",
+            "username": "eleventigers"
+        },
+        "service": {
+            "hostname": "jokubasdargis.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1454625392,
+    "expire_in": 157680000,
+    "prev": "b4d69957cd06333301a9b0ce0f284b05a873a5ebda2f0c350849e652f09a157f",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFtUn1MVWUcvlyQCSHSguWmXMcZASXguef7XFgFIRILaAglIbu+55z3XI73eg73
+g3u9AyYpUGIBFm02hzJMSPM7ww8YCk0l2YIVCdTuTUiHjRrLYVE56T1M/+v3z7vf
++3ue532e3962VaEGY0hBcSD/brOrJWTkV8Hw1pffeWswQZP8mKUGs8PlAzok6PZY
+7YqEWTDcTOAUL3IMx0N0iAzHEjjHSyJPEIASZZaSCABEioSEwIkiBwSB5gUGAIEU
+9IY3MwIOsFRMVlQbdFW5FNWDZGUZ8rRspkUoURQii2aGFHBOoiSakCQKQIoDLMFB
+RKzU3DoDmROAG6YrGrpDjXXZ3v/gn/rGzTKOzFEkzzA8QwCZEHGCozgZ2UZRWCjT
+JC9CgjbjPMuSIuAJXOJ4SmIgJTJmhhGXfVcvy7ECTvOAJ1kZcBQOKEBIEBcomiJE
+BpnndaAbulSwEyI0dEAvVD0KCuzG6lIxNPEqItSXq6d5gtqh2atRJAm4bIo7XYUe
+JFLl0jyaqDnQuNLjqbLobI+/Sof7oGB9ImQVFFVC+0QEL3pC0VTMYkZI0aPoymbk
+iyFQOiIVg7uqFBe0KjqCZhkOR6U/A72YBWACSsvzNCtKOEOiws2AF3AR4jLaFIoM
+OJYENBQkQMi4SNI4R/GQoVHDAyQnY3o2p6ohcaTqATbk063YVOCpdkGsLnKfcV2Y
+IcRoCF9h1L+aITIi5un/M8+vXrKt7mn5uOaPB1e/T49zDjm7Cj5RqRspdS+X2K3v
+/ZhxeOC2KXLGGy+ENWZnOOqSM35f3J+2Y/OkLSu2o1tITj06eOJsYe10z4bDNy7e
+LV4gjwTiTj6/fvxRsOmqLzHxeBn0l5hru+sf1v4CN/ULFDHf9li5X5j8W1bL7DPj
+J5J239x7J2FP/a2zNwf+7hye6Qhv3bPvUPpo6Xge/OKbU67LRvJA5PmDW0dr3zTh
+uf4G05qpTcd8l+NaX0x7NepM0SA5Z7TfX/OG35eTMj1fttiy23T6z8FvnX19/sDR
+tdXjOdcX9nfVN3DOr3xD7MaP3t+eMtLdcHzdZst0kM14rqPitXg5LbpX/qm0LD4z
+9tztmIch061k+cK7E4Hc9W3u5oPBR0nV7aENCcktXwfztqz8d/Fk2vBWrelYadjS
+xKo50zvB0tMR96bLsj6c0GYTU8L2bht/xdCU4751Ab5+qeNA9qRjnr526KXM2bXX
+uJU7fSpRY/cOncsKDrOiPPZCfExjoGDjTFL3p3nlu3qjSwJXeuP7Z6ce+7Tokbof
+nPOj5dkLUacmhoqaw9XCaNMHRzqjhIKxRGZ7whQdHUJc6I/tG24PLf6s4cH5wLNz
+jgjXz3Na2b32sdYpMmuL39Rpu5hf+XlRDvPPtkuRXFdF4xUp/6+BmOsbSttzA0tn
+6lfcmRQrQnvezvwP
+=Ydq3
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/eleventigers
+
+==================================================================
+
